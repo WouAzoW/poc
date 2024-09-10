@@ -1,5 +1,3 @@
-#通天星CMSV6 pointManage存在SQL注入可写入文件RCE
-
 import argparse,requests,sys,time,re
 from multiprocessing.dummy import Pool
 requests.packages.urllib3.disable_warnings()
@@ -18,8 +16,7 @@ def banner():
    ▄█    ███ ███  ▀ ███  ███▌    ▄      ███  ███   ███     ███   ███    ███ ███    ███     ███     ███  ███    ███ ███   ███ 
  ▄████████▀   ▀██████▀▄█ █████▄▄██      █▀    ▀█   █▀  █▄ ▄███   ██████████ ████████▀     ▄████▀   █▀    ▀██████▀   ▀█   █▀  
                          ▀                             ▀▀▀▀▀▀                                                                
-                                                                    info:通天星CMSV6 pointManage存在SQL注入可写入文件RCE
-                                                                    version:1.0 author:YeahSir  
+
 '''
     print(text)
 def main():
